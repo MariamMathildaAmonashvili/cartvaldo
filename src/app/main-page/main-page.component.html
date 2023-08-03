@@ -4,8 +4,13 @@
       <h5 class="card-title">Iphone 15 </h5>
       <img src="https://imageio.forbes.com/specials-images/imageserve/641397e79f04500b85460b8f/Apple--iPhone-15--iPhone-15-Pro-Max--iPhone-15-Pro--iPhone-15-Pro-design--iPhone-15/0x0.jpg?format=jpg&crop=924,693,x359,y0,safe&width=960">
       <p class="card-text">Get $200–$640 in credit toward iPhone 14 or iPhone 14 Pro when you trade in iPhone 11 or higher.</p>
-      <a href="#" class="btn btn-primary">Add To Cart</a>
-    </div>
+      <button (click)="cartService.add()"   type="button" class="btn btn-primary">
+        Add to Cart 
+      </button>  
+      <button (click)="cartService.complete()"   type="button" class="btn btn-danger">
+        Remove Item
+      
+      </button>   </div>
     </div>
     <div class="card bg-light mb-3" >
 
@@ -13,8 +18,13 @@
         <h5 class="card-title">Macbook Pro </h5>
         <img src="https://cdn1.it4profit.com/AfrOrF3gWeDA6VOlDG4TzxMv39O7MXnF4CXpKUwGqRM/resize:fill:540/bg:f6f6f6/q:100/plain/s3://catalog-products/220621083058163924/220831140011224734.png@webp">
         <p class="card-text">The most affordable Mac laptop to get things done on the go.</p>
-        <a href="#" class="btn btn-primary">Add To Cart</a>
-      </div>
+        <button (click)="cartService.add()"   type="button" class="btn btn-primary">
+          Add to cart 
+        </button> 
+        <button (click)="cartService.complete()"   type="button" class="btn btn-danger">
+          Remove Item
+        
+        </button>      </div>
       </div>
       <div class="card bg-light mb-3" >
 
@@ -23,7 +33,13 @@
         <img src="https://www.notebookcheck.net/fileadmin/_processed_/4/0/csm_DSC09605_c3a2e331be.jpg" alt="">
         <p class="card-text">Which iPad is right for you?
         </p>
-        <a href="#" class="btn btn-primary">Add To Cart</a>
-      </div>
+        <button (click)="cartService.add()"   type="button" class="btn btn-primary">
+          Add to cart
+        
+        </button>  
+        <button (click)="cartService.complete()"   type="button" class="btn btn-danger">
+          Remove Item
+        
+        </button>     </div>
   </div>
   </div>
